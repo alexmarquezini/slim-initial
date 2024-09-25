@@ -1,0 +1,40 @@
+{
+    "name": "alexmarquezini/slim-initial",
+    "description": "A initial package with slim 3, php 5.5 to develop a legacy project more structured",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SlimInitial\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alexmarquezini",
+            "email": "alexsmarquez@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^3.12",
+        "illuminate/database": "^5.0",
+        "illuminate/pagination": "^5.0",
+        "yajra/laravel-oci8": "^2.4",
+        "slim/twig-view": "^2.5",
+        "php-di/slim-bridge": "^1.1",
+        "vlucas/phpdotenv": "^3.6",
+        "slim/csrf": "^0.8.3",
+        "slim/flash": "^0.4.0",
+        "hassankhan/config": "^0.11.2",
+        "respect/validation": "^1.1",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "config": {
+        "platform": {
+            "php": "5.5.0"
+        },
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
